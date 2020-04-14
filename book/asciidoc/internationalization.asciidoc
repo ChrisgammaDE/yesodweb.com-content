@@ -224,7 +224,7 @@ To add back i18n to your application you need to:
 * Create a directory +"messages"+ in the main folder of your scaffolding project.
 * Create a file +"messages/en.msg"+ with the following dummy content: +Hello: Hello+
 
-After that you can use +_{...}+ anywhere in all your Hamlet files. Just make sure
+After that you can use +_{..}_+ anywhere in all your Hamlet files. Just make sure
 to insert +mkMessage "App" "messages" "en"+ before +instance Yesod App where+.
 Otherwise you can't use i18n in your +defaultLayout+. If your default language is
 not +"en"+, you can decide it here. Just make sure to also name your message file accordingly.
